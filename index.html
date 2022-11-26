@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World!</title>
+	</head>
+	<body>
+		<img src="cliply.co/wp-content/uploads/2021/08/472108440_HELLO_STICKER_400.png">
+		{% for message in get_flashed_messages() %}
+			<p>{{message}}</p>
+		{% endfor %}
+	</body>
+<html>
